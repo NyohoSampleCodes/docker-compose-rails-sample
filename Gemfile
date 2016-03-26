@@ -56,6 +56,21 @@ gem 'better_errors'
 gem 'awesome_print'
 gem 'paranoia'
 gem 'rails_config'
-gem 'kaminari'
+# gem 'kaminari'
 gem 'clockwork'
+
+gem 'activeadmin', github: 'activeadmin'
+# gem 'activeadmin', '>= 1.0.0.pre2'
+# gem 'devise', github: 'plataformatec/devise', branch: 'master'
+gem 'devise',      '> 4.x'
+gem 'rspec-rails', '>= 3.5.0.beta1'
+gem 'ransack',    github: 'activerecord-hackery/ransack'
+gem 'kaminari',   github: 'amatsuda/kaminari', branch: '0-17-stable'
+gem 'formtastic', github: 'justinfrench/formtastic'
+gem 'draper',     github: 'audionerd/draper', branch: 'rails5', ref: 'e816e0e587'
+# To fix a Draper deprecation error
+gem 'activemodel-serializers-xml', github: 'rails/activemodel-serializers-xml'
+# Optional -- only if you already include these gems
+gem 'rack-mini-profiler',          github: 'MiniProfiler/rack-mini-profiler'
+gem 'database_cleaner',            github: 'pschambacher/database_cleaner', branch: 'rails5.0'
 
