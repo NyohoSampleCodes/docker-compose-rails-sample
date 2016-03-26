@@ -13,6 +13,9 @@ RUN gem install rails --pre && gem install \
 RUN mkdir /app
 
 WORKDIR /tmp
+
+ENV DATABASE_HOST db
+
 COPY Gemfile Gemfile
 COPY Gemfile.lock Gemfile.lock
 RUN bundle install
