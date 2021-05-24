@@ -73,7 +73,7 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     arbre (1.2.1)
       activesupport (>= 3.0.0)
-    awesome_print (1.8.0)
+    awesome_print (1.9.2)
     bcrypt (3.1.13)
     better_errors (2.7.1)
       coderay (>= 1.0.0)
